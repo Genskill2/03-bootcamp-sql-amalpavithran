@@ -1,0 +1,1 @@
+select title from books join publisher ON books.publisher==publisher.id where publisher.name == "PHI";
